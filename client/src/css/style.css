@@ -1,0 +1,44 @@
+h1{
+    font-size: 24px;
+    font-style: bold;
+    color: blue;
+
+}
+body{
+    font-family:"Poppins";
+    font-style: "regular";
+    font-size: 16px;
+    color: darkgray;
+    border: 1px solid #ccc;
+    
+}
+button{
+    font-style: "Lato";
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+input, button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}

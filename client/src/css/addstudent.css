@@ -1,0 +1,180 @@
+/* /* .add-student-container {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 1px;
+    background-color: hsl(0, 0%, 50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.add-student-container h2 {
+    text-align: center;
+    color: #3498db;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1px;
+    font-weight: bold;
+}
+
+input {
+    padding: 1px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #585a5c;
+} */
+
+
+/* General Styles */
+/*
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Centering the form 
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Form Styling 
+  form {
+    width: 90%;
+    max-width: 400px;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Labels 
+  form label {
+    font-weight: bold;
+  }
+  
+  /* Input fields 
+  form input, form select {
+    width: 100%;
+    padding: 2px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Submit Button 
+  form button {
+    width: 50%;
+    padding: 5px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  form button:hover {
+    background: darkblue;
+  }
+  
+  /* Responsive Design 
+  @media (max-width: 768px) {
+    form {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    form {
+      padding: 15px;
+    }
+    form button {
+      font-size: 14px;
+    }
+  }
+    */
+
+    .student-container {
+      width: 100%;
+      max-width: 400px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     
+    }
+    
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    .student-form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    
+    .student-form input {
+      padding: 12px;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      transition: border-color 0.3s ease;
+    }
+    
+    .student-form input:focus {
+      outline: none;
+      border-color: #4CAF50;
+    }
+    
+    button {
+      padding: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+      background-color: #45a049;
+    }
+    
+    @media (max-width: 480px) {
+      .student-container {
+        padding: 16px;
+      }
+    }
+    
