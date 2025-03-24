@@ -21,7 +21,7 @@ const Login=()=>{
     if (usertype=="admin")
     {
       try {
-        let api = "http://localhost:8070/admin/adminlogin";
+        let api = "https://attendancemanagementsystem-1.onrender.com/admin/adminlogin";
         const response = await axios.post(api, {userid:userid , password:password});
         console.log(response.data);
         if(response.status==200)

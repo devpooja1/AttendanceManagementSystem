@@ -13,7 +13,7 @@ const DisplayPage = () => {
   const StudentDisplay = async () => {
     setLoading(true);
     try {
-      const { data } = await axios.get('http://localhost:8070/student/display');
+      const { data } = await axios.get('https://attendancemanagementsystem-1.onrender.com/student/display');
       setStudents(data);
     } catch (error) {
       console.log('Error display students');
@@ -35,7 +35,7 @@ const DisplayPage = () => {
     }
 
     try {
-      await axios.put(`http://localhost:8070/student/attendance/${id}`, {
+      await axios.put(`https://attendancemanagementsystem-1.onrender.com/student/attendance/${id}`, {
         status,
         date: attendanceDate,
       });
@@ -61,7 +61,7 @@ const DisplayPage = () => {
 
     try {
       const { data } = await axios.get(
-        `http://localhost:8070/student/attendance?date=${selectedDate}`
+        `https://attendancemanagementsystem-1.onrender.com/student/attendance?date=${selectedDate}`
       );
       setAttendanceRecords(data);
     } catch (error) {

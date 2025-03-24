@@ -18,7 +18,7 @@ const AddStudent = () => {
     try {
       // const token = localStorage.getItem('token');
       const { data } = await axios.post(
-        'http://localhost:8070/student/addstudent',
+        'https://attendancemanagementsystem-1.onrender.com/student/addstudent',
         { rollNo, name, course, email, fees }
         // { headers: { Authorization: `Bearer ${token}` } }
       );
